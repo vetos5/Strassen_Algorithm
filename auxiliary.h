@@ -9,6 +9,7 @@ using std::rand;
 using std::time;
 using std::srand;
 using std::cin;
+using namespace std::chrono;
 
 int** createMatrix(int n) {
 	int** newMatrix = new int* [n];

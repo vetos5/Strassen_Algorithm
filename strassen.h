@@ -68,6 +68,35 @@ int** strassen(int** A, int** B, int n) {
 			C[newSize + i][newSize + j] = C22[i][j];
 		}
 	}
+	
+	remove(A11, newSize);
+	remove(A12, newSize);
+	remove(A21, newSize);
+	remove(A22, newSize);
+	remove(B11, newSize);
+	remove(B12, newSize);
+	remove(B21, newSize);
+	remove(B22, newSize);
+	remove(S1, newSize);
+	remove(S2, newSize);
+	remove(S3, newSize);
+	remove(S4, newSize);
+	remove(S5, newSize);
+	remove(S6, newSize);
+	remove(S7, newSize);
+	remove(S8, newSize);
+	remove(S9, newSize);
+	remove(P1, newSize);
+	remove(P2, newSize);
+	remove(P3, newSize);
+	remove(P4, newSize);
+	remove(P5, newSize);
+	remove(P6, newSize);
+	remove(P7, newSize);
+	remove(C11, newSize);
+	remove(C12, newSize);
+	remove(C21, newSize);
+	remove(C22, newSize);
 
 	return C;
 }
