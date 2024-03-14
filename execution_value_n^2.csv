@@ -1,0 +1,5 @@
+input_size,standart_execution_time,strassen_execution_time
+64,1,264
+128,5,1646
+256,47,11677
+512,389,89888

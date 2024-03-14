@@ -14,14 +14,14 @@ using namespace std::chrono;
 int** createMatrix(int n) {
 	int** newMatrix = new int* [n];
 	for (unsigned int i = 0; i < n; i++) {
-		newMatrix[i] = new int [n];
+		newMatrix[i] = new int[n];
 	}
 	return newMatrix;
 }
-void randomize(int** &A, int n) {
+void randomize(int**& A, int n) {
 	srand(time(NULL));
 
-	A = new int*[n];
+	A = new int* [n];
 	for (unsigned int i = 0; i < n; i++) {
 		A[i] = new int[n];
 		for (unsigned int j = 0; j < n; j++) {
@@ -49,7 +49,7 @@ void remove(int**& A, int n) {
 }
 
 //matrix operations
-int** add(int** A, int** B, int n){
+int** add(int** A, int** B, int n) {
 	int** C = createMatrix(n);
 
 	for (int i = 0; i < n; i++)
@@ -60,7 +60,7 @@ int** add(int** A, int** B, int n){
 	return C;
 }
 
-int** subtract(int** A, int** B, int n){
+int** subtract(int** A, int** B, int n) {
 	int** C = createMatrix(n);
 
 	for (int i = 0; i < n; i++)
@@ -71,7 +71,7 @@ int** subtract(int** A, int** B, int n){
 	return C;
 }
 
-int** multiply(int** A, int** B, int n){
+int** multiply(int** A, int** B, int n) {
 	int** C = createMatrix(n);
 
 	for (unsigned int i = 0; i < n; i++)
