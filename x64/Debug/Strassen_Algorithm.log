@@ -1,0 +1,77 @@
+﻿  Source.cpp
+E:\gitrepos\uni_proj_library\Strassen_Algorithm\auxiliary.h(22,29): warning C4018: '<': signed/unsigned mismatch
+E:\gitrepos\uni_proj_library\Strassen_Algorithm\auxiliary.h(31,29): warning C4018: '<': signed/unsigned mismatch
+E:\gitrepos\uni_proj_library\Strassen_Algorithm\auxiliary.h(33,30): warning C4018: '<': signed/unsigned mismatch
+E:\gitrepos\uni_proj_library\Strassen_Algorithm\auxiliary.h(40,29): warning C4018: '<': signed/unsigned mismatch
+E:\gitrepos\uni_proj_library\Strassen_Algorithm\auxiliary.h(42,30): warning C4018: '<': signed/unsigned mismatch
+E:\gitrepos\uni_proj_library\Strassen_Algorithm\auxiliary.h(51,29): warning C4018: '<': signed/unsigned mismatch
+E:\gitrepos\uni_proj_library\Strassen_Algorithm\auxiliary.h(106,29): warning C4018: '<': signed/unsigned mismatch
+E:\gitrepos\uni_proj_library\Strassen_Algorithm\auxiliary.h(107,30): warning C4018: '<': signed/unsigned mismatch
+E:\gitrepos\uni_proj_library\Strassen_Algorithm\auxiliary.h(117,29): warning C4018: '<': signed/unsigned mismatch
+E:\gitrepos\uni_proj_library\Strassen_Algorithm\auxiliary.h(118,30): warning C4018: '<': signed/unsigned mismatch
+E:\gitrepos\uni_proj_library\Strassen_Algorithm\auxiliary.h(126,29): warning C4018: '<': signed/unsigned mismatch
+E:\gitrepos\uni_proj_library\Strassen_Algorithm\auxiliary.h(128,29): warning C4018: '<': signed/unsigned mismatch
+E:\gitrepos\uni_proj_library\Strassen_Algorithm\auxiliary.h(129,30): warning C4018: '<': signed/unsigned mismatch
+E:\gitrepos\uni_proj_library\Strassen_Algorithm\auxiliary.h(132,31): warning C4018: '<': signed/unsigned mismatch
+E:\gitrepos\uni_proj_library\Strassen_Algorithm\strassen.h(13,27): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+E:\gitrepos\uni_proj_library\Strassen_Algorithm\strassen.h(14,27): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+E:\gitrepos\uni_proj_library\Strassen_Algorithm\strassen.h(15,27): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+E:\gitrepos\uni_proj_library\Strassen_Algorithm\strassen.h(16,27): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+E:\gitrepos\uni_proj_library\Strassen_Algorithm\strassen.h(17,27): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+E:\gitrepos\uni_proj_library\Strassen_Algorithm\strassen.h(18,27): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+E:\gitrepos\uni_proj_library\Strassen_Algorithm\strassen.h(19,27): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+E:\gitrepos\uni_proj_library\Strassen_Algorithm\strassen.h(20,27): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+E:\gitrepos\uni_proj_library\Strassen_Algorithm\strassen.h(36,32): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+E:\gitrepos\uni_proj_library\Strassen_Algorithm\strassen.h(37,27): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+E:\gitrepos\uni_proj_library\Strassen_Algorithm\strassen.h(38,27): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+E:\gitrepos\uni_proj_library\Strassen_Algorithm\strassen.h(39,32): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+E:\gitrepos\uni_proj_library\Strassen_Algorithm\strassen.h(40,27): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+E:\gitrepos\uni_proj_library\Strassen_Algorithm\strassen.h(41,27): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+E:\gitrepos\uni_proj_library\Strassen_Algorithm\strassen.h(42,32): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+E:\gitrepos\uni_proj_library\Strassen_Algorithm\strassen.h(43,27): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+E:\gitrepos\uni_proj_library\Strassen_Algorithm\strassen.h(44,32): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+E:\gitrepos\uni_proj_library\Strassen_Algorithm\strassen.h(45,28): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+E:\gitrepos\uni_proj_library\Strassen_Algorithm\strassen.h(48,31): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+E:\gitrepos\uni_proj_library\Strassen_Algorithm\strassen.h(49,31): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+E:\gitrepos\uni_proj_library\Strassen_Algorithm\strassen.h(50,31): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+E:\gitrepos\uni_proj_library\Strassen_Algorithm\strassen.h(51,31): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+E:\gitrepos\uni_proj_library\Strassen_Algorithm\strassen.h(52,30): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+E:\gitrepos\uni_proj_library\Strassen_Algorithm\strassen.h(53,30): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+E:\gitrepos\uni_proj_library\Strassen_Algorithm\strassen.h(54,31): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+E:\gitrepos\uni_proj_library\Strassen_Algorithm\strassen.h(58,39): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+E:\gitrepos\uni_proj_library\Strassen_Algorithm\strassen.h(58,53): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+E:\gitrepos\uni_proj_library\Strassen_Algorithm\strassen.h(58,67): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+E:\gitrepos\uni_proj_library\Strassen_Algorithm\strassen.h(59,26): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+E:\gitrepos\uni_proj_library\Strassen_Algorithm\strassen.h(60,26): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+E:\gitrepos\uni_proj_library\Strassen_Algorithm\strassen.h(61,44): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+E:\gitrepos\uni_proj_library\Strassen_Algorithm\strassen.h(61,58): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+E:\gitrepos\uni_proj_library\Strassen_Algorithm\strassen.h(61,72): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+E:\gitrepos\uni_proj_library\Strassen_Algorithm\strassen.h(72,14): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+E:\gitrepos\uni_proj_library\Strassen_Algorithm\strassen.h(73,14): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+E:\gitrepos\uni_proj_library\Strassen_Algorithm\strassen.h(74,14): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+E:\gitrepos\uni_proj_library\Strassen_Algorithm\strassen.h(75,14): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+E:\gitrepos\uni_proj_library\Strassen_Algorithm\strassen.h(76,14): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+E:\gitrepos\uni_proj_library\Strassen_Algorithm\strassen.h(77,14): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+E:\gitrepos\uni_proj_library\Strassen_Algorithm\strassen.h(78,14): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+E:\gitrepos\uni_proj_library\Strassen_Algorithm\strassen.h(79,14): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+E:\gitrepos\uni_proj_library\Strassen_Algorithm\strassen.h(80,13): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+E:\gitrepos\uni_proj_library\Strassen_Algorithm\strassen.h(81,13): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+E:\gitrepos\uni_proj_library\Strassen_Algorithm\strassen.h(82,13): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+E:\gitrepos\uni_proj_library\Strassen_Algorithm\strassen.h(83,13): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+E:\gitrepos\uni_proj_library\Strassen_Algorithm\strassen.h(84,13): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+E:\gitrepos\uni_proj_library\Strassen_Algorithm\strassen.h(85,13): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+E:\gitrepos\uni_proj_library\Strassen_Algorithm\strassen.h(86,13): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+E:\gitrepos\uni_proj_library\Strassen_Algorithm\strassen.h(87,13): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+E:\gitrepos\uni_proj_library\Strassen_Algorithm\strassen.h(88,13): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+E:\gitrepos\uni_proj_library\Strassen_Algorithm\strassen.h(89,13): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+E:\gitrepos\uni_proj_library\Strassen_Algorithm\strassen.h(90,13): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+E:\gitrepos\uni_proj_library\Strassen_Algorithm\strassen.h(91,13): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+E:\gitrepos\uni_proj_library\Strassen_Algorithm\strassen.h(92,13): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+E:\gitrepos\uni_proj_library\Strassen_Algorithm\strassen.h(93,13): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+E:\gitrepos\uni_proj_library\Strassen_Algorithm\strassen.h(94,13): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+E:\gitrepos\uni_proj_library\Strassen_Algorithm\strassen.h(95,13): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+E:\gitrepos\uni_proj_library\Strassen_Algorithm\strassen.h(96,14): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+E:\gitrepos\uni_proj_library\Strassen_Algorithm\strassen.h(97,14): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+E:\gitrepos\uni_proj_library\Strassen_Algorithm\strassen.h(98,14): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+E:\gitrepos\uni_proj_library\Strassen_Algorithm\strassen.h(99,14): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  Strassen_Algorithm.vcxproj -> E:\gitrepos\uni_proj_library\Strassen_Algorithm\x64\Debug\Strassen_Algorithm.exe
