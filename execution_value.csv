@@ -1,8 +1,0 @@
-input_size,standart_execution_time,strassen_execution_time
-100,3,261
-200,24,1770
-300,77,11822
-400,180,12661
-500,356,12973
-600,624,86417
-700,1019,86945
