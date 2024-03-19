@@ -1,5 +1,6 @@
 ﻿#include "strassen.h"
 #include <cassert>
+#include "auxiliary.h"
 
 void runTest() {
     {
@@ -77,12 +78,25 @@ int main() {
     int n;
     cout << "Enter the size of the matrix: " << endl;
     cin >> n;
+
     int** A = createMatrix(n);
     int** B = createMatrix(n);
     int** C = createMatrix(n);
 
+    /*string fileA = "A.txt";
+    randomize(A, n);
+    saveToFile(A, n, fileA);
+    
+    string fileB = "B.txt";
+    randomize(B, n);
+    saveToFile(B, n, fileB);*/
+
+    /*int** A = readFromFile("A.txt", n);
+    int** B = readFromFile("B.txt", n);*/
+
     randomize(A, n);
     randomize(B, n);
+
 
     /*cout << "Matrix A: " << endl;
     print(A, n);
@@ -94,18 +108,17 @@ int main() {
     C = multiply(A, B, n);
     auto stop = high_resolution_clock::now();
     auto duration_standard = duration_cast<milliseconds>(stop - start);
-
     /*cout << "Matrix C by Std:" << endl;
     print(C, n);*/
 
     cout << "Time taken by Standard algorithm: " << duration_standard.count() << " milliseconds" << endl;
 
-    start = high_resolution_clock::now();
+    auto start1 = high_resolution_clock::now();
     C = strassen(A, B, n);
-    stop = high_resolution_clock::now();
-    auto duration_strassen = duration_cast<milliseconds>(stop - start);
-    /* cout << "Matrix C by Strassen:" << endl;
-     print(C, n);*/
+    auto stop1 = high_resolution_clock::now();
+    auto duration_strassen = duration_cast<milliseconds>(stop1 - start1);
+    /*cout << "Matrix C by Strassen:" << endl;
+    print(C, n);*/
 
     cout << "Time taken by Strassen algorithm: " << duration_strassen.count() << " milliseconds" << endl;
 

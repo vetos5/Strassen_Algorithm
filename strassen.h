@@ -2,7 +2,7 @@
 #include "auxiliary.h"
 
 int** strassen(int** A, int** B, int n) {
-	if (n == 1) {
+	if (n <= 128) {
 		return multiply(A, B, n);
 	}
 

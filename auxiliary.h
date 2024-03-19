@@ -2,6 +2,9 @@
 #include <iostream>	
 #include <ctime>
 #include <chrono>
+#include <fstream>
+#include <string>
+#include <thread>
 
 using std::cout;
 using std::endl;
@@ -10,6 +13,9 @@ using std::time;
 using std::srand;
 using std::cin;
 using namespace std::chrono;
+using std::ofstream;
+using std::string;
+using std::ifstream;
 
 int** createMatrix(int n) {
 	int** newMatrix = new int* [n];
@@ -19,7 +25,7 @@ int** createMatrix(int n) {
 	return newMatrix;
 }
 void randomize(int**& A, int n) {
-	srand(time(NULL));
+	//srand(time(NULL));
 
 	A = new int* [n];
 	for (unsigned int i = 0; i < n; i++) {
@@ -46,6 +52,49 @@ void remove(int**& A, int n) {
 		delete[] A[i];
 	}
 	delete[] A;
+}
+
+void saveToFile(int** matrix, int n, const string& filename) {
+	ofstream outputFile(filename);
+
+	if (outputFile.is_open()) {
+
+		for (int i = 0; i < n; ++i) {
+			for (int j = 0; j < n; ++j) {
+				outputFile << matrix[i][j] << " ";
+			}
+			outputFile << endl;
+		}
+		outputFile.close();
+		cout << "Saved to file... " << filename << endl;
+	}
+	else {
+		cout << "Error. " << endl;
+	}
+}
+
+int** readFromFile(const string& filename, int& n) {
+	ifstream inputFile(filename); 
+
+	if (inputFile.is_open()) {
+		inputFile >> n; 
+		int** matrix = new int* [n]; 
+
+		for (int i = 0; i < n; ++i) {
+			matrix[i] = new int[n];
+			for (int j = 0; j < n; ++j) {
+				inputFile >> matrix[i][j];
+			}
+		}
+
+		inputFile.close(); 
+		cout << "Reading success... " << filename << endl;
+		return matrix;
+	}
+	else {
+		cout << "Error." << endl;
+		return nullptr;
+	}
 }
 
 //matrix operations
@@ -85,3 +134,4 @@ int** multiply(int** A, int** B, int n) {
 		}
 	return C;
 }
+
